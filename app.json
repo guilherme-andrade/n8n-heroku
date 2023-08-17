@@ -63,10 +63,10 @@
       }
     },
     {
-      "plan": "papertrail:choklad"
+      "plan": "papertrail:mini"
     },
     {
-      "plan": "heroku-redis:hobby-dev"
+      "plan": "heroku-redis:mini"
     }
   ]
 }
