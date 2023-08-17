@@ -3,7 +3,7 @@
   "description": "deploy n8n to heroku without any hassle",
   "keywords": ["n8n", "node", "automation"],
   "website": "https://n8n.io",
-  "repository": "https://github.com/sarveshwarge/n8n-heroku",
+  "repository": "https://github.com/guilherme-andrade/n8n-heroku",
   "logo": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/editor-ui/public/favicon-32x32.png",
   "success_url": "/",
   "stack": "container",
@@ -48,11 +48,11 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     },
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   },
   "addons": [
